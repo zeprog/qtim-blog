@@ -1,0 +1,13 @@
+{
+  "header": {
+    "works": "Works",
+    "about": "About",
+    "lets-work": "Let’s work"
+  },
+  "footer": {
+    "there-project": "Is there a project?",
+    "for-all-questions": "For all questions",
+    "office-russia": "Office in Russia",
+    "office-dubai": "Office in Dubai"
+  }
+}
