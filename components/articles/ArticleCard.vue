@@ -14,12 +14,11 @@
     <p class="text-gray-700 mb-6 line-clamp-3 text-xl">
       {{ article.description }}
     </p>
-    <a
-      href="#"
+    <button
       class="absolute bottom-[-10px] text-xl text-purple font-medium opacity-0 translate-y-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0"
     >
       Read more
-    </a>
+    </button>
   </NuxtLink>
 </template>
 
