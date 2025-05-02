@@ -1,9 +1,11 @@
 <template>
-  <section>
-    <h1 class="text-[84px] text-dark mb-12">Articles</h1>
+  <section class="px-4 sm:px-6 lg:px-[112px] pt-10 md:pt-[80px] pb-[80px] md:pb-[140px]">
+    <h1 class="text-[42px] sm:text-[56px] md:text-[72px] lg:text-[84px] font-bold text-dark mb-8 md:mb-12">
+      Articles
+    </h1>
     <div
       v-if="articlesStore.isLoading"
-      class="grid gap-16 md:grid-cols-2 xl:grid-cols-4 mb-[60px]"
+      class="grid gap-10 sm:gap-12 sm:grid-cols-2 xl:grid-cols-4 mb-14"
     >
       <div
         v-for="n in articlesPerPage"
@@ -23,7 +25,7 @@
       v-else
       name="lazy-fade"
       tag="div"
-      class="grid gap-16 md:grid-cols-2 xl:grid-cols-4 mb-[60px]"
+      class="grid gap-10 sm:gap-12 sm:grid-cols-2 xl:grid-cols-4 mb-14"
     >
       <ArticleCard
         v-for="article in paginatedArticles"

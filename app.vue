@@ -1,10 +1,10 @@
 <template>
   <div class="font-sans">
     <Header />
-    <main class="pt-[106px] pb-[143px] px-[112px]">
+    <main class="px-4 sm:px-6 lg:px-[112px] pt-10 sm:pt-[80px] pb-[80px] sm:pb-[143px]">
       <NuxtPage />
     </main>
-    <Footer />
+    <Footer /> 
   </div>
 </template>
 
